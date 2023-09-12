@@ -17,8 +17,7 @@ const routes: Routes = [
   {path: 'icons', component: IconsComponent },
   {path: 'maps', component: MapsComponent },
   {path: 'notifications', component: NotificationsComponent},
-  {path: '**', pathMatch:'full', redirectTo: ''}
-];
+  {path: '**', pathMatch:'full', redirectTo: ''}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
