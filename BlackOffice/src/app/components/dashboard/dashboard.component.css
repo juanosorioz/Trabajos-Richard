@@ -1,0 +1,43 @@
+.container{
+  width: 115.1%;
+}
+
+#color,#pen,#log,#count,#drop{
+  margin-left: 5px;
+}
+#pen{margin-right: 25px;}
+
+#se{
+  width: 600px;
+}
+.gatches{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+}
+.g1,.g2,.g3,.g4{
+  width: 22.5%;
+  margin-left: 25px;
+  height: 130px;
+  border-radius: 0.5em;
+  border: solid gray 2px;
+}
+.g1 i,.g2 i, .g3 i, .g4 i{
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+.num{
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.text{
+  clear: both;
+  display: flex;
+  color: gray;
+}
+.text h6{
+  margin-left: 15px;
+  margin-top: 12px;
+}
